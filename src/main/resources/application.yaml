@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  cache:
+    type: redis
+  redis:
+    host: redis-17384.c295.ap-southeast-1-1.ec2.cloud.redislabs.com
+    port: 17384
+    username: default
+    password: MDdykmPok02W0WHxCjJUQMV7wuBKBao9
+    timeout: 5000
